@@ -1,17 +1,17 @@
 # DataCleaning
-Week 4 assignment submission "Getting and Cleaning Data"
-#Project - Cleaning & Tidying Data
+# Week 4 assignment submission "Getting and Cleaning Data"
+# Project - Cleaning & Tidying Data
 #
 library("dplyr")
 library("tidyr")
 #
-#Step 1 - Reading data files to R
+# Step 1 - Reading data files to R
 s_test<-read.table("test/subject_test.txt")
 x_test<-read.table("test/X_test.txt")
 y_test<-read.table("test/y_test.txt")
 #
-#s_test has 2,947 obs of 1 vbl (subject identifier, integer, 1 - 30); x_test has 2,947 obs of 561 vbls; 
-#y_test has 2,947 obs. of 1 vbl (test labels, integer, 1 - 6).
+# s_test has 2,947 obs of 1 vbl (subject identifier, integer, 1 - 30); x_test has 2,947 obs of 561 vbls; 
+# y_test has 2,947 obs. of 1 vbl (test labels, integer, 1 - 6).
 #
 s_train<-read.table("train/subject_train.txt")
 x_train<-read.table("train/X_train.txt")
